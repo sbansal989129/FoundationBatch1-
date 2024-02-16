@@ -1,0 +1,15 @@
+h1{
+  
+    color: red;
+    background-color: yellow;
+    font-family:sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+p{
+    font-weight: 100; 
+    font-size: x-large;
+    word-spacing: 100px;
+    letter-spacing: 10px;
+}

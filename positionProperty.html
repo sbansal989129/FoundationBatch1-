@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .parent{
+            height: 500px;
+            height: 500px;
+            background-color: grey;
+        }
+
+        .box{
+            height: 100px;
+            width: 100px;
+
+        }
+
+        .static{
+            background-color: red;
+        }
+
+        .relative{
+            background-color: yellow;
+       
+        }
+
+        .absolute{
+             background-color: green; 
+          
+
+        }
+
+        .fixed{
+             background-color: purple;
+
+          
+        }
+
+        .sticky{
+            background-color: brown;
+            position: sticky;
+            top: 100px;
+            left: 100px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="box static "> Static </div>
+        <div class="box relative "> Relative  </div>
+
+        <div class="box sticky "> Sticky </div>
+        <div class="box absolute "> Absolute </div>
+        <div class="box fixed "> Fixed </div>
+       
+    </div>
+
+    <div class="height" style="height: 300vh;"></div>
+</body>
+</html>
